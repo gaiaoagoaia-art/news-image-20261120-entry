@@ -24,3 +24,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 `main.ts` (Node 22, stdlib only) draws the 1024x1024 PNG deterministically —
 one seeded PRNG, fixed consumption order — and writes it to
 `$MAKEFUN_OUTPUT_DIR/entry.png`. Two runs produce byte-identical output.
+
+## License
+
+MIT — see [LICENSE](LICENSE). SPDX-License-Identifier: MIT.
